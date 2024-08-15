@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('templates/layout.html')
+    fetch('/java-interview/templates/layout.html')
         .then(response => response.text())
         .then(data => {
             const tempDiv = document.createElement('div');
